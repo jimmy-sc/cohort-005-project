@@ -15,10 +15,14 @@ A Refund Request the team hasn't decided yet.
 _Avoid_: Pending, Requested, Awaiting review
 
 **Approved Refund Request**:
-A Refund Request the team has accepted. Approving it is what leads to a Refund.
+A Refund Request the team has accepted. Approving it is what leads to a Refund, and it ends the learner's access to the course. Their progress in the course is kept.
 
 **Declined Refund Request**:
-A Refund Request the team has turned down. It has no Refund, and the learner may raise a new Refund Request.
+A Refund Request the team has turned down, with a Decline Reason. It has no Refund and is never reopened; the learner may raise a new Refund Request instead.
+
+**Decline Reason**:
+The team's explanation to the learner of why their Refund Request was declined.
+_Avoid_: Rejection reason, Note
 
 **Refund**:
 The money returned to a learner after their Refund Request is approved. It is always the full amount they paid. A declined Refund Request has no Refund.
