@@ -1,0 +1,1 @@
+ALTER TABLE `refunds` ADD `decision_note` text;
